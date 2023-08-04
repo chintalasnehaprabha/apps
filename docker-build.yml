@@ -12,7 +12,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: new-image:1
+      - image: devopssneha/apps:1
         name: db
         ports:
         - containerPort: 80
